@@ -1,0 +1,33 @@
+.seasons-page {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.container-seasons {
+  width: 20%;
+  background-color: rgb(62, 146, 55);
+  margin-right: 20px;
+}
+
+.container-seasons:last-child {
+  margin-right: 0;
+}
+
+.seasons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.h3-seasons {
+  margin-bottom: 5px; 
+  color:white;
+}
+
+.season-link {
+  text-decoration: none;
+  color: inherit;
+}
