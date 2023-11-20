@@ -27,7 +27,8 @@ function App() {
       <Router>
         <Header onClickFunc={() => {changeLoginStat(false)}}/>
         <Routes>
-          <Route path = '/' element = {<SeasonsPage />} />
+          <Route path = '/' element = {<SeasonsPage firstIndex={0} lastIndex={5} />} />
+          <Route path = '/postTS' element = {<SeasonsPage firstIndex={6} lastIndex={14} />} />
           <Route path = '/about' element = {<AboutPage />} />
           <Route path = '/episodes/:seasonId' element = {<EpisodeListPage />} />
           <Route path = '/epDetail/:seasonId/:indexArr' element = {<EpisodeDetailPage />} />

@@ -12,7 +12,7 @@ export default function AboutPage() {
                 <div style={{paddingLeft:"40px",paddingRight:"40px"}} />
                 <ProfileComponent photo="https://scontent.fsrg2-1.fna.fbcdn.net/v/t39.30808-6/403973995_2036181990076938_6493852096991280580_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGBPL35XFDNyDFtSSKxR_FU3nVO-p8KEYnedU76nwoRieXvmCZqeLE4DVhjzVOd6Bt2JYJsWH_dFTO-9RDvSU09&_nc_ohc=CJ0Jua8Tv18AX9VBanA&_nc_ht=scontent.fsrg2-1.fna&oh=00_AfC8OswImDB_c3iiQxGejThtpPd2Ci_rGCa4zKj3FyAScA&oe=655F4A17" name="Raung Kawijayan" nim="21120120140155"/>
                 <div style={{paddingLeft:"40px",paddingRight:"40px"}} />
-                <ProfileComponent photo="" name="Adam Abdur Rozaq" nim="21120119130076"/>
+                <ProfileComponent photo="https://scontent.fsrg2-1.fna.fbcdn.net/v/t39.30808-6/404116450_2036731790021958_3594764445534827378_n.jpg?stp=cp0_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHNkMhh2SFz7p5qOGNTNkkCpIae_8cI8RCkhp7_xwjxEDNgSINzgqkdx-RY_sejvjCNnxEpFH9e1QFwaQT7Zys1&_nc_ohc=jm7j1dWc6AcAX-kgDVa&_nc_ht=scontent.fsrg2-1.fna&oh=00_AfDXs4_GAAhwZwXk8MCRyWK3e8KqKliYu6sVkRB_i_De3Q&oe=655F3929" name="Adam Abdur Rozaq" nim="21120119130076"/>
             </div>
         </div>
     )

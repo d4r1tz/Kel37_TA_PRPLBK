@@ -12,7 +12,7 @@ const OnePieceSeasonsProvider = ({ children, APIUrl, seasonIdCheck }) => {
         method: 'GET',
         url: `${APIUrl}`,
         headers: {
-          'X-RapidAPI-Key': '6d38556de5msh96f71efba81b237p1c4337jsndd165ee99d6f',
+          'X-RapidAPI-Key': '4beb7b230fmshbe9b190d607e724p1c5f8bjsn42956d8ee953',
           'X-RapidAPI-Host': 'one-piece-episodes.p.rapidapi.com',
         },
       });

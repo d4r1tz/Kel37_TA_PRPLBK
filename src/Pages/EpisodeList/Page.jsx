@@ -16,11 +16,11 @@ export default function EpisodeListPage() {
         const componentsPerRow = 5;
     
         return (
-            <div style={{height: '550px', marginBottom:'70px'}}>
+            <div style={{height: '450px', marginBottom:'70px'}}>
                 <h1>EPISODES LIST</h1>
                 {
                     dataSeasons.episodes.map((ep, index) => (
-                        <Link key={index} to={`/epDetail/${ep.season_id}/${index}`} className="container-episodes" style={{ paddingLeft: '20px', marginBottom: '20px' }}>
+                        <Link key={index} to={`/epDetail/${ep.season_id}/${index}`} className="container-episodes" style={{paddingTop:'20px', paddingLeft:'20px', paddingRight:'20px', marginBottom: '20px' }}>
                             <img src={ep.image} style={{height:"150px", width:"150px"}}/>
                             <h3 className="h3-episodes">EP {ep.episode}</h3>
                             <h3 className="h3-episodes">{ep.title}</h3>

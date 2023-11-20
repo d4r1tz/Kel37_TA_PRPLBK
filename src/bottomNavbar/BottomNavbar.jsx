@@ -5,7 +5,8 @@ import './BottomNavbar.css';
 const BottomNavbar = () => {
   return (
     <div className="bottom-navbar">
-      <Link to="/">Home</Link>
+      <Link to="/">Pre-Timeskip</Link>
+      <Link to="/postTS">Post-Timeskip</Link>
       <Link to="/about">About</Link>
     </div>
   );
